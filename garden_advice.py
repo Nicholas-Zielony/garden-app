@@ -3,7 +3,17 @@
 def get_advice(prompt, garden_dict):
     """
     Get user input to select a season or plant based on args given.
-    Returns advice to be used later.
+    Returns advice to be used later.\n
+
+    args:\n
+    prompt (string):
+        added onto input string for question context.\n
+    garden_dict (dict[string]):
+        keys and responses for the season or plant.\n
+
+    return:\n
+        string: The advice given for later use.
+
     """
     # Allow user input for season and plant type and check for errors
     user_input = input(f"Please enter a {prompt}: ").strip().lower()
@@ -15,6 +25,10 @@ def get_advice(prompt, garden_dict):
 
 
 def main():
+    """
+    Main code section.
+    Gives advice for gardeners based on season and plant type inputted.
+    """
 
     # Dictionaries
     garden_season = {
@@ -39,7 +53,6 @@ def main():
     print(advice)
 
     # TODO: Examples of possible features to add:
-    # - Add detailed comments explaining each block of code.
     # - Recommend plants based on the entered season.
 
 
