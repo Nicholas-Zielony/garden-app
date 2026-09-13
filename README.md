@@ -4,4 +4,6 @@
 
 Contains a python program that has various TODO sections for future improvements.
 
-Look at branches for changes implemented.
+Look at issues and pull requests for changes implemented.
+
+One TODO was left as an example of what a followup issue and pull request/merge could focus on.
